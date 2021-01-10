@@ -1,0 +1,23 @@
+{
+  "name": "tiny-moment",
+  "version": "1.0.0",
+  "description": "Monitor Typescript class methods to generate tests based on inputs and outputs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "Buglink.io Team",
+  "license": "ISC",
+  "dependencies": {
+    "sourcemapped-stacktrace": "^1.1.11"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
+  }
+}

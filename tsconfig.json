@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "module": "es6",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "target": "es5",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": [
+      "webworker",
+      "es6",
+      "dom",
+      "es2015"
+    ],
+    "downlevelIteration": true,
+    "types": ["jest"]
+  },
+  "include": [
+    "src"
+  ]
+}
