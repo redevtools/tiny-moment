@@ -1,7 +1,6 @@
 /**
  *
- * Receives a `Date` and a format (with tokens based on Moment.js) in `string`
- * and returns the same format replacing the tokens for values from `Date`.
+ * Receives a `Date` and a format `string` (with tokens based on Moment.js) and returns the formatted Date.
  * @example
  * formatDate(new Date(), "DD/MM/YYYY hh:mm:ss");
  * //=> "25/06/2020 11:59:28"
